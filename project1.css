@@ -1,4 +1,5 @@
 body{
+    /*a design to the hole body of the website as general */
     width: 900px;
     height: auto;
     margin: auto;
@@ -9,60 +10,63 @@ background-repeat: no-repeat;
     background-position: center ;
     background-size: cover;
 }
-header{
+header
+ /*a design to the header gives it width and hieght and color */
     margin:   auto ;
     width:1000px ;
     height: 200px;
     color: aliceblue ;
 }
-.om{
+.girlpic{
+     /*a design to the picture  gives it width and coordinate ist position */
     margin: auto;
     width:1000px;
     
 }
-div{text-align: center;
+section{
+     /*a design to the section gives it width, hieght, color and coordinate its position*/
+    text-align: center;
     margin: 0px 0px 80px 0px;
     background-color:#1b1a1a ;
     width: 1000px;
     height: auto;
 }
 .img{
-    
+     /*a design to the imge gives it width, hieght, color and coordinate its position */
     margin: auto;
     
     width : 400px ;
     height: 500px;
 
 }
-.img1{margin: auto;
+.img1{ /*a design to the imge gives it width, hieght, color and coordinate its position */
+    margin: auto;
     
     width : 500px ;
     height: 400px;
     
 }
-h1{ margin: auto;
-    font-size: 100px;
-    font-weight: bolder;
 
-}
 
-hr{  margin: auto;
+hr{ /*a design to the hr gives it width and coordinate its position */ 
+    margin: 10px auto;
     width:200px;
 
 }
     
-p{ color: darkgray;
+p{ /*a design to the paragraph gives it pading and coordinate its position */
+    color: darkgray;
     padding:50px;
 }   
 
 
-.one{
+.one{ /*a design to the article gives it width, hieght, color, coordinate its position and backgruond color */
     width: 1000px;
     margin: auto;
   background-color: #fff;
     height: 600px;
 }
-.two{
+.two{ /*a design to the article gives it width, hieght, color,pading,backgruond color and coordinate its position  */
 width: 1000px;
     margin: auto;
     background-color: aliceblue;
@@ -70,7 +74,7 @@ width: 1000px;
     padding-top: 40px;
     padding-bottom: 0 ;
 } .three{
-   
+   /*a design to the article gives it width, hieght, color,pading,backgruond color and coordinate its position  */
     width: 800px;
     margin: auto;
     justify-content: center;
@@ -79,11 +83,13 @@ background-color: black;
     padding: 20px;
 }
 .four{
+/*a design to the article gives it width, hieght and coordinate its position  */
     width: 900px;
     margin: auto;
     height: 1000;
 }
-.five{   display: inline ;
+.five{  /*a design to the article gives it width, hieght,backgruond color and coordinate its position  */
+    display: inline ;
    background-color: #fff;
     width: 500px;
     margin: auto;
@@ -91,64 +97,88 @@ background-color: black;
  
 }
 .six{
+    /*a design to the article gives it width, hieght,  and coordinate its position and put hte tag inline */
     display: inline;
     width: 500px;
     margin: auto;
      height: 400px;
  
 }
-.seven{
+.seven{ /*a design to the article gives it width, hieght,backgruond color and coordinate its position and put the tag inline  */
        display: inline;
     width: 500px;
     margin: auto;
   background-color: #fff;
    height: 400px;
 }
-.eight{ margin:80px auto 0px auto;
+.eight{ /*a design to the article gives it width, hieght and coordinate its position and make it flexable  */
+    margin:80px auto 0px auto;
     display: flex;
     width: 1000px;
     height: 1200px;
 flex-direction: row;
 flex-wrap: wrap
 }
-.line{
+.line{ /*a design to the span gives it color and coordinate its position  */
 margin: 10px;
     color: darkgray;
 }
 .backgroud{
+    
     margin: auto;
 width: 900;
     height: 100px;
-}
-.icon{ 
+} .icon{ /*a design to the imges of social media icons gives them width, hieght,put them inline and coordinate thier position  */
     width: 50px;
     height: 50px;
    display: inline;
     margin: 0px auto 30px auto ;
-}
-a{
+} 
+
+.a{ /*a design to the anchor gives it color*/
       color: darkgray; 
 }
 footer{
+    /*a design to the section  coordinate its position  */
     margin-bottom: 60px;
     
 }
 span{
+    /*a design to the span color */
     color: darkgray;
 }
-h1{ margin: auto;
-    font-size: 100px;
-    font-weight: bolder;
-color: #fff;
-}
+
 .teplanted{
+    /*a design to the span under the title in thje footer gives it color  */
     color: #fff
 }
-.title {
+.titlelink { 
+    /*a design to the two links in the title  gives it color  */
     color: #fff ;
     text-decoration: none;
 }
-    
-    
+.firstTitle{
+    /*a design to first title in the websit gives it color ,font size and put it in block position  */
+    font-size: 100px;
+    display: block;
+    color:  #fff ;
+}
+.whiteColor{
+    /*a design to thefirst title span under the title in the header gives it color  */
+    color: #fff ;
+}
+
+.sociallinks{
+    /*a design to social media links  coordinate position  */
+    margin: auto;
+}
+.imgsdesign{
+    /*a design to u tag gives it color  */
+    color: darkgray;
+}
+.girlpic{
+    /* design to picture in the header */
+    width: 1000px;
+}
     
     
